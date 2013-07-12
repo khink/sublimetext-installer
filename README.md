@@ -14,3 +14,8 @@ Run this in the shell:
     chmod 700 sublime-install.sh
     ./sublime-install.sh
 
+SublimeText Versions
+--------------------
+
+This script targets SublimeText 2, for which no easier install method is available.
+It should also work on the tarball for SublimeText 3, but i'd use the ``.deb`` for that.
