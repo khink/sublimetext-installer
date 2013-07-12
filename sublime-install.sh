@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Check https://github.com/khink/sublimetext-installer for newer versions of this script
+
 DOWNLOAD_DIR="/tmp"
 DOWNLOAD_URL="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.tar.bz2"
 FILENAME=`echo $DOWNLOAD_URL | sed 's/.*\(Sublime.*\)/\1/' | sed 's/\%20/\\ /g'`
