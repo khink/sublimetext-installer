@@ -34,3 +34,12 @@ SublimeText Versions
 
 This script targets SublimeText 2, for which no easier install method is available.
 It should also work on the tarball for SublimeText 3, but i'd use the ``.deb`` for that.
+
+Default text editor on SublimeText 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If the `.deb` for SublimeText 3 doesn't update the default editor, 
+you can run:
+
+	make replace-default-editor
+
