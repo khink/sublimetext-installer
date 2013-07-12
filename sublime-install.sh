@@ -19,7 +19,7 @@ sudo mkdir -p $TARGET_DIRECTORY
 # Install in target dir.
 sudo tar xf "$DOWNLOAD_DIR/$FILENAME" -C $TARGET_DIRECTORY
 
-# Unlink existing sylink if necessary.
+# Unlink existing symlink if necessary.
 if [ -f "$BINARY_DIRECTORY/$SYMLINK_NAME" ]
     then
     sudo unlink "$BINARY_DIRECTORY/$SYMLINK_NAME"
