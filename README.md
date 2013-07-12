@@ -12,7 +12,7 @@ Usage, Features
 Run this in the shell:
 
     wget https://github.com/khink/sublimetext-installer/raw/master/sublime-install.sh
-    ./sublime-install.sh
+    . sublime-install.sh
 
 Now you should be able to run ``sublime_text`` from anywhere, including the Unity dash.
 
