@@ -49,7 +49,6 @@ X-Ayatana-Desktop-Shortcuts=NewWindow
 Name=New Window
 Exec=$SYMLINK_NAME -n
 TargetEnvironment=Unity
-MUHAHA
 EOF
 
 # Use sublime instead of Gedit (inline replace)
